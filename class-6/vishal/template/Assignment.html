@@ -1,0 +1,55 @@
+<!-- html 5 -->
+<!DOCTYPE html>
+  <html>
+   <!-- heading -->
+   <head>
+   <h1>Drivers Licence Application Form</h1>
+   </head>
+   <style>
+   body{
+   background-color:grey;
+       }
+   </style>
+   <link href="..\styles\myStyles.css" rel="stylesheet"/>
+ <body >
+ <article>
+   <header></header>
+       <section>
+         <form id="driversApplicationForm">
+         <!-- First Name -->
+             <span>
+                  <label name="firstName"> First Name:</label>
+                    <input type="text "id="firstName" name="firstName" placeholder="Enter your First Name">
+                </span>
+         <!-- Last Name -->
+             <span>
+                 <label name="lastName"> Last Name:</label>
+                   <input type="text "id="lastName" name="lastName" placeholder="Enter your Last Name">
+            </span>
+         <!-- Gender -->
+             <span>
+             <label name="gender"> Gender: </label>
+             <label name="gender"> Male </label>
+             <input type="radio" id="gender" name="gender">
+             <label name="gender"> Female </label>
+             <input type="radio" id="gender" name="gender">
+             </span>
+             <!-- Seniour citizen -->
+             <span>
+             <label name="seniorCitizen">Are you a Senior Citizen:</label>
+             <input type="checkbox" id="seniorCitizen" name="seniorCitizen" >
+            </span>
+             
+             <!-- submit -->
+
+             <button style="background-color:#1f699b; color:#fff" type="submit" id="submit" name="submit">Submit</button>
+             <button  style="background-color:#d00; color:#fff" type="reset" id="cancel" name="cancel">Cancel</button>
+
+             
+             
+                 </form>
+       </section>
+  <footer></footer>
+  </article>
+</body>
+</html>
