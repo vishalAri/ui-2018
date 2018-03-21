@@ -7,7 +7,7 @@
    </head>
    <style>
    body{
-   background-color:grey;
+   background-color:faf9fa;
        }
    </style>
    <link href="..\styles\myStyles.css" rel="stylesheet"/>
@@ -17,33 +17,38 @@
        <section>
          <form id="driversApplicationForm">
          <!-- First Name -->
-             <span>
+             <div>
                   <label name="firstName"> First Name:</label>
                     <input type="text "id="firstName" name="firstName" placeholder="Enter your First Name">
-                </span>
+                </div>
+             <br>
          <!-- Last Name -->
-             <span>
+             <div>
                  <label name="lastName"> Last Name:</label>
                    <input type="text "id="lastName" name="lastName" placeholder="Enter your Last Name">
-            </span>
+            </div>
+             <br>
          <!-- Gender -->
-             <span>
+             <div>
              <label name="gender"> Gender: </label>
              <label name="gender"> Male </label>
              <input type="radio" id="gender" name="gender">
              <label name="gender"> Female </label>
              <input type="radio" id="gender" name="gender">
-             </span>
+             </div>
+             <br>
              <!-- Seniour citizen -->
-             <span>
+             <div>
              <label name="seniorCitizen">Are you a Senior Citizen:</label>
              <input type="checkbox" id="seniorCitizen" name="seniorCitizen" >
-            </span>
-             
+            </div>
+             <br>
              <!-- submit -->
 
-             <button style="background-color:#1f699b; color:#fff" type="submit" id="submit" name="submit">Submit</button>
-             <button  style="background-color:#d00; color:#fff" type="reset" id="cancel" name="cancel">Cancel</button>
+             <button type="submit" id="submit" >
+                 <span>Submit</span></button>
+             <button type="reset" id="cancel" >
+                 <span>Cancel</span></button>
 
              
              

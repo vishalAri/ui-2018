@@ -1,12 +1,28 @@
-body{
-background-color:#faf9fa;
-border-style: double;
-border-width: 5px;
-margin:2px;
- line-height:2.0;
-
-
+form[id="driversApplicationForm"]{
+border:2px solid #000;
+display:inline-block;
     }
-span {
-    display: block;
+
+div{
+display:inline-block;
+}
+
+label{
+display:block;
+}
+
+#cancel{
+background-color:#d00;
+color:#fff;
+}
+
+#submit{
+background-color:#1f699b;
+color:#fff;
+}
+
+#firstName, #lastName{
+background-color:#695869;
+color:#fff;
+
 }
