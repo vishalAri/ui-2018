@@ -1,0 +1,33 @@
+
+body{
+margin:center;
+}
+form[id="driversApplicationForm"]{
+border:2px solid #000;
+display:inline-block;
+
+    }
+
+div{
+margin:2px;
+padding:5px;
+}
+
+label{
+}
+
+#cancel{
+background-color:#d00;
+color:#fff;
+}
+
+#submit{
+background-color:#1f699b;
+color:#fff;
+}
+
+#firstName, #lastName{
+background-color:#695869;
+color:#fff;
+
+}
